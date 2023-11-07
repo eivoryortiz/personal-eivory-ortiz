@@ -1,0 +1,39 @@
+<blockquote>
+This problem is a higher order function problem.
+
+</blockquote>
+
+<blockquote>
+Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I hihgly recommend you use it too if you are beginning your computer science journey!
+</blockquote>
+
+book [here](https://eloquentjavascript.net/05_higher_order.html)
+
+
+[here](https://github.com/eivoryortiz/csc324/blob/main/ch05_eivory_ortiz.js)
+
+
+
+```js
+ This function is from a textbook we used in this class known as Eloquent Javascript Third Edtion.
+ ```
+
+```js
+function every(array, predicate) {
+  for (let element of array) {
+    if (!predicate(element)) return false;
+  }
+  return true;
+}
+
+function every2(array, predicate) {
+  return !array.some(element => !predicate(element));
+}
+console.log(every([1,3,5], n => n < 10));
+console.log(every([2,4,16], n => n < 10));
+console.log(every([], n => n < 10));
+
+
+<blockquote>
+The code is taking an array and for every time the array goes through then it will.
+</blockquote>

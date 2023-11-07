@@ -1,0 +1,9 @@
+---
+title: "Welcome!"
+---
+
+Welcome to my Warmup Website!  It serves as the title suggests a precursor to a potential website I will be making.
+
+You can read a bit about me [here](about.html).
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

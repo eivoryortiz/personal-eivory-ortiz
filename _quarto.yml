@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Eivory Ortiz's Website Warmup"
+  site-path: "/warmup-eivory-ortiz/"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: articles/index.qmd
+        text: Articles 
+
+  sidebar:
+    - id: articles
+      title: "Articles"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+        - text: "Solution to Everything"
+          href:  articles/article_01.qmd
+        - text: "Solution to Flattening"
+          href:  articles/article_02.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
+

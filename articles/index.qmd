@@ -1,0 +1,7 @@
+---
+title: "Articles"
+---
+
+I am doing two homework problems from CSC324 in my college.
+Essentially these problems are from Eloquent Javascript Third Edition. 
+I am going to explain flattening and everything from chapter 5 in the textbook. 
