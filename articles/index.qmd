@@ -10,3 +10,4 @@ If you are interested in learning about computer science I recommend it!
 These codes deal with Javascript but at my time here in Georgetown while pursuing my minor I have also studied R Studio Language!
 I have also linked my GitHub account in this website specifically taking you to the solution I uploaded for the HW we had in this class.
 It has another solution to a problem title Looping that you can find as well!
+I am testing out currently new styles and layout for this website so that in the future I can see what aesthetics I prefer compared to what I have right now! So be on the lookour for changes to my website coming soon!

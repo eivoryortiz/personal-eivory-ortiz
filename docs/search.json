@@ -32,14 +32,14 @@
     "href": "about.html#future-life",
     "title": "About Me",
     "section": "Future Life",
-    "text": "Future Life\nI would like to be finanically independent and be able to further help those in understanding the dyanmics of the law and computer science. Mainly as it relates to specifically patent law and data privacy. I would like to be part of a group of lawyers that start a new legal field. Currently right now both areas I have mentioned are separate but I think bringing the two could help emerge one that has a concentration on A.I. I am hopeful for what the future brings and I know that collaborating is the way to go! Plus this website also is a nice memoir to have :) !"
+    "text": "Future Life\nI would like to be finanically independent and be able to further help those in understanding the dyanmics of the law and computer science. Mainly as it relates to specifically patent law and data privacy. I would like to be part of a group of lawyers that start a new legal field. Currently right now both areas I have mentioned are separate but I think bringing the two could help emerge one that has a concentration on A.I. I am hopeful for what the future brings and I know that collaborating is the way to go! Plus this website is also a nice little memoir to have :) !"
   },
   {
     "objectID": "articles/index.html",
     "href": "articles/index.html",
     "title": "Articles",
     "section": "",
-    "text": "I am explaining two homework problems from CSC324 in my computer science class at my college. Essentially these problems are from Eloquent Javascript Third Edition which can be found online. I am going to explain Flattening and Everything from Chapter 5 in the textbook. These two problems deal with higher order functions. If you are interested in learning about computer science I recommend it! These codes deal with Javascript but at my time here in Georgetown while pursuing my minor I have also studied R Studio Language! I have also linked my GitHub account in this website specifically taking you to the solution I uploaded for the HW we had in this class. It has another solution to a problem title Looping that you can find as well!"
+    "text": "I am explaining two homework problems from CSC324 in my computer science class at my college. Essentially these problems are from Eloquent Javascript Third Edition which can be found online. I am going to explain Flattening and Everything from Chapter 5 in the textbook. These two problems deal with higher order functions. If you are interested in learning about computer science I recommend it! These codes deal with Javascript but at my time here in Georgetown while pursuing my minor I have also studied R Studio Language! I have also linked my GitHub account in this website specifically taking you to the solution I uploaded for the HW we had in this class. It has another solution to a problem title Looping that you can find as well! I am testing out currently new styles and layout for this website so that in the future I can see what aesthetics I prefer compared to what I have right now! So be on the lookour for changes to my website coming soon!"
   },
   {
     "objectID": "articles/article_01.html",
@@ -49,18 +49,25 @@
     "text": "This problem is a higher order function problem. The title of this in the textbook is Everything.\nThe Textbook here\nThe Solution via Code here"
   },
   {
+    "objectID": "articles/article_01.html#understanding-the-code",
+    "href": "articles/article_01.html#understanding-the-code",
+    "title": "Eivory Ortiz's Website Warmup",
+    "section": "Understanding the Code",
+    "text": "Understanding the Code\nThe every function is the name of this function we are creating but as well it is defning two parameters.\nOne of which is the array and the second is the predicate.\nEssentially what this does together will go through a loop using iteration over each element in the array part.\n\nThe if statement line of code checks to see if the predicate function returns false for any element.\nIf that is the case then it will return false.\nIf however that isn’t the case then it will return as true.\n\n\nThe second part of this function is the every2.\nIt follows along the same method as the previous function.\n\n\nIt has the same parameters, the array and predicate.\n\n\nThe some method is different as it is checking to see if there are any elements for which predicate can return false.\nThe arrow function in this negates the result of predicate. So in this case it is using the NOT operator aka !\n\n\nThe result of the some method is negated once again using the ! to do the same thing as the every function.\n\nOnce we have all that we can console.log to print our our every functions.\nSo in this case the first one is checking to see if every element in the array is less than 10, should come back as true. The second one is checking to see if every element in the array is less than 10 and should return back false. Last one is checking if every element is less than 10 and should come back as true because none of them met the conditions we stated."
+  },
+  {
+    "objectID": "articles/article_01.html#in-conclusion",
+    "href": "articles/article_01.html#in-conclusion",
+    "title": "Eivory Ortiz's Website Warmup",
+    "section": "IN CONCLUSION",
+    "text": "IN CONCLUSION\nThis function was created using javascript as its language to have a better way of checking for elements in a given array as based upon the chapters usage of higher order functions."
+  },
+  {
     "objectID": "articles/article_02.html",
     "href": "articles/article_02.html",
     "title": "Eivory Ortiz's Website Warmup",
     "section": "",
     "text": "This is the problem to the question Flattening. &lt;blockquote\n\nBelow is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I highly recommend you use it too if you are beginning your computer science journey!\n\nThe Book here\nThe Solution here\n\nIt is worth noting that the link for the solution also shows two other problems as well that were solved!\n\nNow for the code to Flattening!\nlet arrays = [[1,2,3], [4,5], [6]];\nconsole.log(arrays.reduce((flat, current) =&gt; flat.concat(current), []));\n\n\nThis is involving an array.\n\n\n\nWe are flattening a nested array by using the reduce method. We declare the variable arrays and assign it the numbers you see nested that we are trying to flatten.\n\n\n\nWe use the console.log to print out the current array with the flattened one, by using the concat method to merge the two. We have an empty array which will be used for to store the flatted array in.\n\n\n\nThe reduce method iterates for us each element in the arrays variable and applies the reducer function to then return the flattened array for us. As stated before the console.log statment is for the output of the flattened array to be shown to us.\n\n\n\nThis was to show by using javascript language how to flatten nested arrays by using the reduce method. By using this as an example you can acheive this with whatever flattening situation you are trying to solve yourself as a beginners guide! Of course taking into consideration what was the purpose of this function in particular but building off of it can be useful!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "Welcome to my Warmup Website! It serves as the title suggests a precursor to a potential website I will be making.\nYou can read a bit about me here.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "articles/article_02.html#step-1",
@@ -98,24 +105,10 @@
     "text": "This was to show by using javascript language how to flatten nested arrays by using the reduce method. By using this as an example you can acheive this with whatever flattening situation you are trying to solve yourself as a beginners guide! Of course taking into consideration what was the purpose of this function in particular but building off of it can be useful!"
   },
   {
-    "objectID": "articles/article_01.html#understanding-the-code",
-    "href": "articles/article_01.html#understanding-the-code",
-    "title": "Eivory Ortiz's Website Warmup",
-    "section": "Understanding the Code",
-    "text": "Understanding the Code\nThe every function is the name of this function we are creating but as well it is defning two parameters.\nOne of which is the array and the second is the predicate.\nEssentially what this does together will go through a loop using iteration over each element in the array part.\n\nThe if statement line of code checks to see if the predicate function returns false for any element.\nIf that is the case then it will return false.\nIf however that isn’t the case then it will return as true.\n\n\nThe second part of this function is the every2.\nIt follows along the same method as the previous function.\n\n\nIt has the same parameters, the array and predicate.\n\n\nThe some method is different as it is checking to see if there are any elements for which predicate can return false.\nThe arrow function in this negates the result of predicate. So in this case it is using the NOT operator aka !\n\n\nThe result of the some method is negated once again using the ! to do the same thing as the every function.\n\nOnce we have all that we can console.log to print our our every functions.\nSo in this case the first one is checking to see if every element in the array is less than 10, should come back as true. The second one is checking to see if every element in the array is less than 10 and should return back false. Last one is checking if every element is less than 10 and should come back as true because none of them met the conditions we stated."
-  },
-  {
-    "objectID": "articles/article_01.html#in-conclusion",
-    "href": "articles/article_01.html#in-conclusion",
-    "title": "Eivory Ortiz's Website Warmup",
-    "section": "IN CONCLUSION",
-    "text": "IN CONCLUSION\nThis function was created using javascript as its language to have a better way of checking for elements in a given array as based upon the chapters usage of higher order functions."
-  },
-  {
-    "objectID": "articles/article_01.html#this-function-is-from-a-textbook-we-used-in-this-class-known-as-eloquent-javascript-third-edtion.",
-    "href": "articles/article_01.html#this-function-is-from-a-textbook-we-used-in-this-class-known-as-eloquent-javascript-third-edtion.",
-    "title": "Eivory Ortiz's Website Warmup",
-    "section": "This function is from a textbook we used in this class known as Eloquent Javascript Third Edtion.",
-    "text": "This function is from a textbook we used in this class known as Eloquent Javascript Third Edtion.\nfunction every(array, predicate) {\n  for (let element of array) {\n    if (!predicate(element)) return false;\n  }\n  return true;\n}\n\nfunction every2(array, predicate) {\n  return !array.some(element =&gt; !predicate(element));\n}\nconsole.log(every([1,3,5], n =&gt; n &lt; 10));\nconsole.log(every([2,4,16], n =&gt; n &lt; 10));\nconsole.log(every([], n =&gt; n &lt; 10));"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome to my Warmup Website! It serves as the title suggests a precursor to a potential website I will be making.\nYou can read a bit about me here.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
