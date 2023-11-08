@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -134,17 +168,60 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-1" id="toc-step-1" class="nav-link active" data-scroll-target="#step-1">Step 1</a></li>
+  <li><a href="#step-2" id="toc-step-2" class="nav-link" data-scroll-target="#step-2">Step 2</a></li>
+  <li><a href="#step-3" id="toc-step-3" class="nav-link" data-scroll-target="#step-3">Step 3</a></li>
+  <li><a href="#step-4" id="toc-step-4" class="nav-link" data-scroll-target="#step-4">Step 4</a></li>
+  <li><a href="#in-conclusion" id="toc-in-conclusion" class="nav-link" data-scroll-target="#in-conclusion">IN CONCLUSION</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
+<blockquote class="blockquote">
+<p>This is the problem to the question Flattening. &lt;blockquote</p>
+<blockquote class="blockquote">
+Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I highly recommend you use it too if you are beginning your computer science journey!
+</blockquote>
+<p>The Book <a href="https://eloquentjavascript.net/05_higher_order.html">here</a></p>
+<p>The Solution <a href="https://github.com/eivoryortiz/csc324/blob/main/ch05_eivory_ortiz.js">here</a></p>
+<blockquote class="blockquote">
+It is worth noting that the link for the solution also shows two other problems as well that were solved!
+</blockquote>
+<p>Now for the code to Flattening!</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> arrays <span class="op">=</span> [[<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span> [<span class="dv">4</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span> [<span class="dv">6</span>]]<span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(arrays<span class="op">.</span><span class="fu">reduce</span>((flat<span class="op">,</span> current) <span class="kw">=&gt;</span> flat<span class="op">.</span><span class="fu">concat</span>(current)<span class="op">,</span> []))<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="step-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-1">Step 1</h2>
+<p>This is involving an array.</p>
+</section>
+<section id="step-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-2">Step 2</h2>
+<p>We are flattening a nested array by using the <code>reduce</code> method. We declare the variable arrays and assign it the numbers you see nested that we are trying to flatten.</p>
+</section>
+<section id="step-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-3">Step 3</h2>
+<p>We use the <code>console.log</code> to print out the current array with the flattened one, by using the concat method to merge the two. We have an empty array which will be used for to store the flatted array in.</p>
+</section>
+<section id="step-4" class="level2">
+<h2 class="anchored" data-anchor-id="step-4">Step 4</h2>
+<p>The <code>reduce</code> method iterates for us each element in the arrays variable and applies the reducer function to then return the flattened array for us. As stated before the <code>console.log</code> statment is for the output of the flattened array to be shown to us.</p>
+</section>
+<section id="in-conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="in-conclusion">IN CONCLUSION</h2>
+<p>This was to show by using javascript language how to flatten nested arrays by using the reduce method. By using this as an example you can acheive this with whatever flattening situation you are trying to solve yourself as a beginners guide! Of course taking into consideration what was the purpose of this function in particular but building off of it can be useful!</p>
 
 
+</section>
 
-</main> <!-- /main -->
+</blockquote></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

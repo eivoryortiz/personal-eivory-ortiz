@@ -168,7 +168,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#understanding-the-code" id="toc-understanding-the-code" class="nav-link active" data-scroll-target="#understanding-the-code">Understanding the Code</a></li>
+  <li><a href="#in-conclusion" id="toc-in-conclusion" class="nav-link" data-scroll-target="#in-conclusion">IN CONCLUSION</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -176,21 +183,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <blockquote class="blockquote">
-<p>This problem is a higher order function problem.</p>
+This problem is a higher order function problem. The title of this in the textbook is Everything.
 </blockquote>
 <blockquote class="blockquote">
-Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I hihgly recommend you use it too if you are beginning your computer science journey!
+Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I highly recommend you use it too if you are beginning your computer science journey!
 </blockquote>
-<p>book <a href="https://eloquentjavascript.net/05_higher_order.html">here</a></p>
-<p><a href="https://github.com/eivoryortiz/csc324/blob/main/ch05_eivory_ortiz.js">here</a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a> This <span class="kw">function</span> is <span class="im">from</span> a textbook we used <span class="kw">in</span> <span class="kw">this</span> <span class="kw">class</span> known <span class="im">as</span> Eloquent Javascript Third Edtion<span class="op">.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>```js function every(array, predicate) { for (let element of array) { if (!predicate(element)) return false; } return true; }</p>
-<p>function every2(array, predicate) { return !array.some(element =&gt; !predicate(element)); } console.log(every([1,3,5], n =&gt; n &lt; 10)); console.log(every([2,4,16], n =&gt; n &lt; 10)); console.log(every([], n =&gt; n &lt; 10));</p>
+<p>The Textbook <a href="https://eloquentjavascript.net/05_higher_order.html">here</a></p>
+<p>The Solution via Code <a href="https://github.com/eivoryortiz/csc324/blob/main/ch05_eivory_ortiz.js">here</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">every</span>(array<span class="op">,</span> predicate) {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> element <span class="kw">of</span> array) {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="op">!</span><span class="fu">predicate</span>(element)) <span class="cf">return</span> <span class="kw">false</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="kw">true</span><span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">every2</span>(array<span class="op">,</span> predicate) {</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="op">!</span>array<span class="op">.</span><span class="fu">some</span>(element <span class="kw">=&gt;</span> <span class="op">!</span><span class="fu">predicate</span>(element))<span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="fu">every</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span> n <span class="kw">=&gt;</span> n <span class="op">&lt;</span> <span class="dv">10</span>))<span class="op">;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="fu">every</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">16</span>]<span class="op">,</span> n <span class="kw">=&gt;</span> n <span class="op">&lt;</span> <span class="dv">10</span>))<span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="fu">every</span>([]<span class="op">,</span> n <span class="kw">=&gt;</span> n <span class="op">&lt;</span> <span class="dv">10</span>))<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="understanding-the-code" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-code">Understanding the Code</h2>
+<p>The every function is the name of this function we are creating but as well it is defning two parameters.</p>
+<p>One of which is the array and the second is the predicate.</p>
+<p>Essentially what this does together will go through a loop using iteration over each element in the array part.</p>
 <blockquote class="blockquote">
-The code is taking an array and for every time the array goes through then it will.
+<p>The if statement line of code checks to see if the predicate function returns false for any element.</p>
+<p>If that is the case then it will return false.</p>
+If however that isn’t the case then it will return as true.
 </blockquote>
+<blockquote class="blockquote">
+<p>The second part of this function is the every2.</p>
+It follows along the same method as the previous function.
+</blockquote>
+<blockquote class="blockquote">
+It has the same parameters, the array and predicate.
+</blockquote>
+<blockquote class="blockquote">
+<p>The some method is different as it is checking to see if there are any elements for which predicate can return false.</p>
+The arrow function in this negates the result of predicate. So in this case it is using the NOT operator aka !
+</blockquote>
+<blockquote class="blockquote">
+The result of the some method is negated once again using the ! to do the same thing as the every function.
+</blockquote>
+<p>Once we have all that we can <code>console.log</code> to print our our every functions.</p>
+<p>So in this case the first one is checking to see if every element in the array is less than 10, should come back as true. The second one is checking to see if every element in the array is less than 10 and should return back false. Last one is checking if every element is less than 10 and should come back as true because none of them met the conditions we stated.</p>
+</section>
+<section id="in-conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="in-conclusion">IN CONCLUSION</h2>
+<p>This function was created using javascript as its language to have a better way of checking for elements in a given array as based upon the chapters usage of higher order functions.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
