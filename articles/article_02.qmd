@@ -1,0 +1,49 @@
+<blockquote>
+This is the problem to the question Flattening.
+<blockquote
+
+<blockquote>
+Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I highly recommend you use it too if you are beginning your computer science journey!
+</blockquote>
+
+The Book
+[here](https://eloquentjavascript.net/05_higher_order.html)
+
+The Solution
+[here](https://github.com/eivoryortiz/csc324/blob/main/ch05_eivory_ortiz.js)
+
+<blockquote>
+It is worth noting that the link for the solution also shows two other problems as well that were solved!
+</blockquote>
+
+Now for the code to Flattening!
+
+```js
+let arrays = [[1,2,3], [4,5], [6]];
+console.log(arrays.reduce((flat, current) => flat.concat(current), []));
+
+
+<blockquote>
+This is involving an array.
+
+We are flattening a nested array by using the reduce method.
+</blockquote>
+
+<blockquote>
+We declare the variable arrays and assign it the numbers you see nested that we are trying to flatten.
+
+We use the console.log to print out the current array with the flattened one, by using the concat method to merge the two.
+
+We have an empty array which will be used for to store the flatted array in.
+</blockquote>
+
+<blockquote>
+The reduce method iterates for us each element in the arrays variable and applies the reducer function to then return the flattened array for us.
+
+As stated before the console.log statment is for the output of the flattened array to be shown to us.
+</blockquote>
+
+<blockquote>
+IN CONCLUSION
+This was to show by using javascript language how to flatten nested arrays by using the reduce method.  By using this as an example you can acheive this with whatever flattening situation you are trying to solve yourself as a beginners guide! Of course taking into consideration what was the purpose of this function in particular but building off of it can be useful!
+</blockquote>

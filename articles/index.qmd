@@ -2,6 +2,7 @@
 title: "Articles"
 ---
 
-I am doing two homework problems from CSC324 in my college.
-Essentially these problems are from Eloquent Javascript Third Edition. 
-I am going to explain flattening and everything from chapter 5 in the textbook. 
+I am doing two homework problems from CSC324 in my computer science class at my college.
+Essentially these problems are from Eloquent Javascript Third Edition which can be found online. 
+I am going to explain Flattening and Everything from Chapter 5 in the textbook. 
+These two problems deal with higher order functions. 

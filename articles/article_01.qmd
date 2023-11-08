@@ -1,15 +1,16 @@
 <blockquote>
 This problem is a higher order function problem.
-
+The title of this in the textbook is Everything.
 </blockquote>
 
 <blockquote>
-Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I hihgly recommend you use it too if you are beginning your computer science journey!
+Below is the attached link for the chapter and then my solution via GitHub. In my CSC324 class we use GitHub, I highly recommend you use it too if you are beginning your computer science journey!
 </blockquote>
 
-book [here](https://eloquentjavascript.net/05_higher_order.html)
+The Textbook
+[here](https://eloquentjavascript.net/05_higher_order.html)
 
-
+The Solution via Code
 [here](https://github.com/eivoryortiz/csc324/blob/main/ch05_eivory_ortiz.js)
 
 
@@ -35,5 +36,50 @@ console.log(every([], n => n < 10));
 
 
 <blockquote>
-The code is taking an array and for every time the array goes through then it will.
+The every function is the name of this function we are creating but as well it is defning two parameters.
+
+One of which is the array and the second is the predicate.
+
+Essentially what this does together will go through a loop using iteration over each element in the array part.
 </blockquote>
+
+
+<blockquote>
+The if statement line of code checks to see if the predicate function returns false for any element.
+
+If that is the case then it will return false.
+
+If however that isn't the case then it will return as true.
+</blockquote>
+
+<blockquote>
+The second part of this function is the every2.
+
+It follows along the same method as the previous function.
+</blockquote>
+
+
+<blockquote>
+It has the same parameters, the array and predicate.
+</blockquote>
+
+
+<blockquote>
+The some method is different as it is checking to see if there are any elements for which predicate can return false.
+
+The arrow function in this negates the result of predicate. So in this case it is using the NOT operator aka !
+</blockquote>
+
+<blockquote>
+The result of the some method is negated once again using the ! to do the same thing as the every function.
+</blockquote>
+
+```.js
+Once we have all that we can console.log the rest to print our our every functions. 
+```
+So in this case the first one is checking to see if every element in the array is less than 10, should come back as true.
+The second one is checking to see if every element in the array is less than 10 and should return back false.
+Last one is checking if every element is less than 10 and should come back as true because none of them met the conditions we stated.
+
+IN CONCLUSION 
+This function was created using javascript as its language to have a better way of checking for elements in a given array as based upon the chapters usage of higher order functions. 
