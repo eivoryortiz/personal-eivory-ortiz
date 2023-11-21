@@ -1,0 +1,13 @@
+---
+title: "How To Do Enhancements on Quarto!"
+description: "My own first-hand experience with Qarto as a new coder."
+author:
+  - name: Eivory Ortiz
+date: "2023-11-14"
+categories: [tutorial, web design, computer science]
+image: ben-kolde-bs2Ba7t69mM-unsplash.jpg
+---
+
+This website I am building is the first website I have ever created and with that comes so many new opportunities of exploration. Granted I am also confined to the rubric of my computer science class for this assignment, but this has been such a fun and rewarding experience that makes me grateful for taking a chance on the field of computer science for my minor. So a lot of what I have created, modified, and used for this version of the website you can do as well!
+
+

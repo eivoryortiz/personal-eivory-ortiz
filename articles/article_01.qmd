@@ -1,3 +1,7 @@
+---
+title: "Solution to Everything"
+---
+
 <blockquote>
 This problem is a higher order function problem.
 The title of this in the textbook is Everything.

@@ -1,0 +1,18 @@
+---
+title: "Computer Programming Topic of Interest"
+description: "Web design for the first time for me!"
+author:
+  - name: Eivory Ortiz
+date: "2023-11-16"
+categories: [computer science, tutorial, web design]
+image: kobu-agency-67L18R4tW_w-unsplash.jpg
+---
+
+## Creating a Website
+
+Many times I have asked myself as far back as I can remember what would it be like if there was a website, book, song, movie, or some other form of media published that could help or inspire others based off my own idea? Lately now its been, what if I created a website that did this? How would it look like and whom should I consult? I knew what computer science was in my youth but not to the extent that I know of it today. Therefore, everything that I have been learning about computer science and what it has done for our world always shocks me, I can say that my reaction is like that of a newborn child's first experience with peek-a-boo. I would say creating a website, that of which I have been tasked to do is by far my faovrite computer programming topic of interest. I am much more appreciative today for the work of computer scientists than I was four years ago and all my life.
+
+In order to create a website, you need an idea for it. Ideas are endless and therefore never ending
+
+
+

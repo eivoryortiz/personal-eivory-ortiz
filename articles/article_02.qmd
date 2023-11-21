@@ -1,3 +1,6 @@
+---
+title: "Solution to Flattening"
+---
 <blockquote>
 This is the problem to the question Flattening.
 <blockquote

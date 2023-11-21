@@ -3,9 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Eivory Ortiz's Website Warmup"
+  title: "Eivory Ortiz's Website"
   site-path: "/warmup-eivory-ortiz/"
+  reader-mode: true
+  repo-url: https://github.com/eivoryortiz/personal-eivory-ortiz
+  repo-actions: issue
   navbar:
+    tools: 
     left:
       - href: index.qmd
         text: Home
@@ -13,24 +17,37 @@ website:
         text: About
       - href: articles/index.qmd
         text: Articles 
+      - href: posts/index.qmd
+        text: Blog
+
 
   sidebar:
-    - id: articles
-      title: "Articles"
+
+    - id: none
       style: "docked"
       background: light
       collapse-level: 2
       contents: 
-        - text: "Solution to Everything"
-          href:  articles/article_01.qmd
-        - text: "Solution to Flattening"
-          href:  articles/article_02.qmd
+        - section: "Articles"
+          href: articles/index.qmd
+          contents: 
+            - text: "Solution to Everything"
+              href:  articles/article_01.qmd
+            - text: "Solution to Flattening"
+              href:  articles/article_02.qmd 
+        - section: "Posts"
+          href: posts/index.qmd
+          contents: "posts/*/*.qmd"
+          sort:
+            - "date desc"
 
 format:
   html:
     theme: flatly
+    dark: darkly
     css: styles.css
     toc: true
 
-
+execute: 
+  freeze: true
 
