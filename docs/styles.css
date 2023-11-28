@@ -1,1 +1,9 @@
 /* css styles */
+
+.btn primary {
+background-color: orange !important;
+}
+
+.btn secondary {
+background-color: pink !important;
+}
