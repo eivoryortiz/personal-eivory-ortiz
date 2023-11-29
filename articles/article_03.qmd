@@ -104,6 +104,6 @@ The following was tutorial for my buttons regarding this assignment, I have give
  Link for the style.css file for buttons and navbar <https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/styles.css> .
  Link for the code of the buttons <https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/index.qmd>
 
- ## Conclusion
+## Conclusion
 
  Now you can change your navbar and insert buttons on your own website using Quarto and VSCode! 

@@ -95,7 +95,14 @@
     "href": "articles/article_03.html#links",
     "title": "Major Enhancement",
     "section": "LINKS",
-    "text": "LINKS\nLink for buttons on Bootstrap https://getbootstrap.com/docs/5.3/components/buttons/ . Link for the style.css file for buttons and navbar https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/styles.css . Link for the code of the buttons https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/index.qmd\n## Conclusion\nNow you can change your navbar and insert buttons on your own website using Quarto and VSCode!"
+    "text": "LINKS\nLink for buttons on Bootstrap https://getbootstrap.com/docs/5.3/components/buttons/ . Link for the style.css file for buttons and navbar https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/styles.css . Link for the code of the buttons https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/index.qmd"
+  },
+  {
+    "objectID": "articles/article_03.html#conclusion",
+    "href": "articles/article_03.html#conclusion",
+    "title": "Major Enhancement",
+    "section": "Conclusion",
+    "text": "Conclusion\nNow you can change your navbar and insert buttons on your own website using Quarto and VSCode!"
   },
   {
     "objectID": "posts/2023-11-17 A-Lorem-Easy-Essay/index.html",
