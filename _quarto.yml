@@ -38,6 +38,10 @@ website:
               href:  articles/article_02.qmd 
             - text: "Major Enhancement"
               href: articles/article_03.qmd
+            - text: "Lyrics To Songs"
+              href: articles/article_04.qmd
+            - text: "Why Being Yourself Is In Fact Challenging"
+              href: articles/article_05.qmd
         - section: "Posts"
           href: posts/index.qmd
           contents: "posts/*/*.qmd"
