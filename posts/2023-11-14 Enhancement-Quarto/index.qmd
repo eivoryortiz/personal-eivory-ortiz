@@ -1,6 +1,6 @@
 ---
 title: "How To Do Minor Enhancements on Quarto!"
-description: "My own first-hand experience with Quarto as a new coder."
+description: "My own first-hand experience with Quarto as a New Coder."
 author:
   - name: Eivory Ortiz
 date: "2023-11-14"
