@@ -1,6 +1,6 @@
 ---
 title: "Understanding the Importance of Education VIA Politics"
-description: "Government, Learning Styles, Nurture v. Nature, Psychology, Systems"
+description: "Government, Learning Styles, Psychology"
 author:
   - name: Eivory Ortiz
 date: "2023-11-13"

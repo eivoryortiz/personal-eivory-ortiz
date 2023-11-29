@@ -1,6 +1,6 @@
 ---
 title: "How To Do Minor Enhancements on Quarto!"
-description: "My own first-hand experience with Qarto as a new coder."
+description: "My own first-hand experience with Quarto as a new coder."
 author:
   - name: Eivory Ortiz
 date: "2023-11-14"
@@ -41,6 +41,7 @@ I then went under my sidebar option and under the task of background I inserted 
 
 ## FINALLY
 So the final product in the end (by code) looks like this in my sidebar section.
+
 ```js
   sidebar:
 
