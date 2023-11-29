@@ -3,4 +3,107 @@ title: "Major Enhancement"
 ---
 
 <blockquote>
+The buttons are the major enhancement!
 </blockquote>
+
+
+<blockquote>
+The first website that I had didn't have any buttons. I wanted to create buttons for the website instead of just leaving links or a here button link.
+</blockquote>
+
+## First Step
+You need to go to a website if you are an amateur programmer who is wanting to make enhancments on your website to begin making any enhancements after you have made your search in the search engine.
+
+## Second Step
+After you have your desired website you will then go to its blog/posts that it has for categories regarding your enhancment. Then you will scroll a bit until you find your desired enhancement.
+
+## Third Step
+In this case I used a website known as Bootstrap which you can click [here](https://getbootstrap.com) . At the top of the website the header shows different options. There are multiple to choose from but I chose from Docs.
+I clicked on Docs and under Docs there was the option for buttons.
+
+## Fourth Step
+This is the code we needed to create the final button for the first one.
+```js
+{=html}
+<button type="button" class="btn btn-primary"> <a href=https://github.com/eivoryortiz> EivoryOrtizGitHub </a> </button> 
+```
+
+* Button One 
+    * First is having the two elements as buttons to indicate the beginning and ending of the code that makes the button.
+    ```js
+    <button> </button>
+    ```
+    * Second is to include the type= so this way the code is understood as a button.
+    ```js
+    type="button"
+    ```
+    * Third is having the class of the button, this part is depending upon what class of button you want and there a ton of options to choose from in Bootstrap. For this first button I chose primary.
+    ```js
+    class="btn btn-primary"
+    ```
+    * Fourth, up until this point we have created the base class for a button, now because I wanted my button to have inside included my GitHub link this is the final step to acheive that. And this is applicable for inserting any recognized website.
+    ```js
+    <a href=https://github.com/eivoryortiz> EivoryOrtizGitHub </a>
+    ```
+    * Lastly, inside the above code is my name for the button which is outside the href= and its name is EivoryOrtizGitHub. Once I have completed all that it will look like the final code as demonstrated by my Fourth Step Code Segment.
+
+* Button Two
+    * The second button which is for the link to Quarto is provided below the code.
+```js
+{=html}
+<button type="button" class="btn btn-secondary"> <a href=https://quarto.org/docs/websites> QUARTO </a> </button>
+```
+
+## Fifth Step
+Keep in mind the following steps are repeated for the second button with the exception of changing for secondary where primary was and inserting the url for the Quarto website where the URL for my GitHub account was. Now lets discuss how we got the colors to be changed.
+
+<blockquote>
+This is the code regarding the styles.css file that is needed for to make the change of the color of the primary and secondary buttons I coded into my website.
+</blockquote>
+
+* First off you want to make sure that the following code matches the language you are writing your website in and in this case its javascript.
+I had typed in my first buttons name which is .btn-primary and I inserted curly brackets to tell what specifically makes up the new style change for my button. Which in this case is the background color. I am not doing an overshadow, nor am I changing the text color, I simply want to modify the background of the default primary button color given in Quarto.
+
+* Second, I can choose my color once I insert the colon in which I will be given a load of options from here until I find the color I want. In this case I wanted orange, so I typed in orange.
+
+* Third and finally, I was taught by my professor Dr.White that anything I wanted Quarto to know regarding this website I am making through VSCode to make sure it runs I insert an exclamation point followed by the word important. And because this is the end of my code needed to modify my button I insert the semicolon and curly bracket and saved my changes and ran it in the terminal. 
+
+```js
+.btn-primary {
+background-color: orange !important;
+}
+
+.btn-secondary {
+background-color: pink !important;
+}
+```
+
+## WRAP-UP
+
+The following was tutorial for my buttons regarding this assignment, I have given steps on how to code it and what it means in the end. I did do another enhancement which was change my navbar to a different color other than the one provided by default for Quarto. So I will explain that as it is a modification that is not a default. 
+
+* Explaining
+    * The same is applicable for the changing of the header or in this case the navbar.
+    <https://getbootstrap.com/docs/5.3/components/navbar/>
+    This link is for where specifically I found how to change navbar settings.
+
+    * I went into the style.css file and I typed in navbar-dark followed by a comma and then navbar-light then followed by another comma till finally .navbar. This is because my default navbar on Quarto is following a background of light that I typed into my Quarto Yml but is also what will help me see the text when the final navbar is complete.
+
+    * Then I opened up a curly bracket in which I insert what I specifically am changing in the navbar from its default and this is its background color. So I type in background-color and its followed by a colon to call upon the colors and I wanted something that went with the color scheme I had so I chose lightsalmon.
+
+    * I then closed it with the semi-colon and curly bracket and saved my new change to the navbar and then ran in the terminal my website to preview the changes I had made here on VSCode. It was to my liking and now you can do it too!
+
+```js
+.navbar-dark, navbar-light, .navbar{
+    background-color: lightsalmon;
+}
+```
+
+## LINKS
+ Link for buttons on Bootstrap <https://getbootstrap.com/docs/5.3/components/buttons/> .
+ Link for the style.css file for buttons and navbar <https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/styles.css> .
+ Link for the code of the buttons <https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/index.qmd>
+
+ ## Conclusion
+
+ Now you can change your navbar and insert buttons on your own website using Quarto and VSCode! 

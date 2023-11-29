@@ -1,9 +1,13 @@
 /* css styles */
 
-.btn primary {
+.btn-primary {
 background-color: orange !important;
 }
 
-.btn secondary {
+.btn-secondary {
 background-color: pink !important;
+}
+
+.navbar-dark, navbar-light, .navbar{
+    background-color: lightsalmon;
 }

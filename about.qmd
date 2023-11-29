@@ -8,27 +8,31 @@ title: "About Me"
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  width: 40% !important;
+  width: 25% !important;
 }
 img
 {
-    border: 1px solid #000000 !important;
+    border: 0.5px solid #000000 !important;
 }
 </style>
 
 <img src="/images/Screenshot 2023-07-25 at 5.54.35 PM.png" class="center" style="border-radius: 30%;">
 
-Hola, I'm Eivory Ortiz!  I'm a girl in a silly little world (but I'm just a girl *insert someone saying that's funny*).
+Hola, I'm Eivory Ortiz! I'm a girl in a silly little world (but I'm just a girl *insert someone saying that's funny*). Fun fact about this selfie I had to take to it for my ID card here for college.
 
 
 ## Early Life
 
-I was born in Troy, Michigan, raised here in Georgetown, KY. I have been active in my community from a very young age. I am an avid learner.
-I love to be creative and take non-convetional approaches to understanding the world around me as this has shaped me for the next sections. 
+I was born reside currently in Georgetown, KY. I have been active in my community from a very young age. I am an avid learner.
+I love to be creative and take non-convetional approaches to understanding the world around me as this has shaped me and allows me to go further into detail about some of myself. If you had asked me if I ever thought I would take a computer science class much less have the life I live today I would've been jaw dropped with no response for you, but that's life and everyone changes!
 
 ## Georgetown College 
 
-I am a senior currently in Georgetown College, located in Georgetown, KY. I am going to gradaute with a bachelors in Political Science and Computer Science. During my time here I have been involved with SHMAC (Student Mental Health Adovocacy Council), Alpha Lambda Delta Honor Society (ALD), and Omicron Kappa Delta Honor Soceity (ODK). I am an independent in this college, meanining that I am not part of a fraternal organization. By also taking this class and choosing this minor I have met some wonderful people, the images I have on my website show two girls who also happen to have their own websites too! You can check theirs out too, shoutout to Lexi Taylor and Alex Kincer, may they both be blessed because without them I I don't know how I would've managed to tackle college!
+I am a senior currently in Georgetown College, located in Georgetown, KY. I am going to gradaute with a bachelors in Political Science and Computer Science. During my time here I have been involved with SHMAC (Student Mental Health Adovocacy Council), Alpha Lambda Delta Honor Society (ALD), and Omicron Kappa Delta Honor Soceity (ODK). I am an independent in this college, meanining that I am not part of a fraternal organization. By also taking this class and choosing this minor I have met some wonderful people, the images I have on my website show two girls who also happen to have their own websites too! You can check theirs out too, shoutout to Lexi Taylor and Alex Kincer, may they both be blessed because without them I I don't know how I would've managed to tackle college! They have taken the same CSC324 class that I did for the 2023 fall semester here at Georgetown College and they have their own variations of their website!
+
+Lexi's Website: <https://lexitaylor5.github.io/personal-lexi-taylor/>
+
+Alex's Website: <https://alexkincer1.github.io/personal-alex-kincer/>
 
 <style>
 .right

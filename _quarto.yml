@@ -26,6 +26,7 @@ website:
     - id: none
       style: "docked"
       background: light
+      logo: images/bia-w-a-PO8Woh4YBD8-unsplash.jpg
       collapse-level: 2
       contents: 
         - section: "Articles"
@@ -35,6 +36,8 @@ website:
               href:  articles/article_01.qmd
             - text: "Solution to Flattening"
               href:  articles/article_02.qmd 
+            - text: "Major Enhancement"
+              href: articles/article_03.qmd
         - section: "Posts"
           href: posts/index.qmd
           contents: "posts/*/*.qmd"

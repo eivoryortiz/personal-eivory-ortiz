@@ -7,9 +7,9 @@ Welcome to my Personal Website! This website serves as an assignment for my CSC3
 You can read a bit about me [here](about.html).
 
 ```{=html}
-<button type="button" class="btn btn-primary"> <a href=https://github.com/eivoryortiz> EivoryOrtizGitHub </a>
+<button type="button" class="btn btn-primary"> <a href=https://github.com/eivoryortiz> EivoryOrtizGitHub </a> </button> 
 ```
 
 ```{=html}
-<button type="button" class="btn btn-secondary"> <a href=https://quarto.org/docs/websites> QUARTO </a>
+<button type="button" class="btn btn-secondary"> <a href=https://quarto.org/docs/websites> QUARTO </a> </button>
 ```

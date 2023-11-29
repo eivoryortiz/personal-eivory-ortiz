@@ -1,13 +1,68 @@
 ---
-title: "How To Do Enhancements on Quarto!"
+title: "How To Do Minor Enhancements on Quarto!"
 description: "My own first-hand experience with Qarto as a new coder."
 author:
   - name: Eivory Ortiz
 date: "2023-11-14"
-categories: [tutorial, web design, computer science]
+categories: [tutorial, web design, substantive, computer science]
 image: ben-kolde-bs2Ba7t69mM-unsplash.jpg
 ---
 
+## Introduction
+
 This website I am building is the first website I have ever created and with that comes so many new opportunities of exploration. Granted I am also confined to the rubric of my computer science class for this assignment, but this has been such a fun and rewarding experience that makes me grateful for taking a chance on the field of computer science for my minor. So a lot of what I have created, modified, and used for this version of the website you can do as well!
 
+* Images
+  * The image I used is from a website known as Unsplash which you can click [here](https://unsplash.com)
+  * Other images can be found on the web that are free to use I would recommend starting out with websites like this one linked [here](https://morethandigital.info/en/top-websites-for-free-and-royalty-free-photos-update/)
+* Git
+  * This is my GitHub linked again for the purpose of locating where the enhancement resides in [here](https://github.com/eivoryortiz/personal-eivory-ortiz/tree/main/images)
 
+I love visual art representations, but I mean *love*. I decided to insert an image on the sidebar of my website.
+I wanted to show something but I didn't know what exactly to choose for a representation of me, so I chose an abstract image of my favorite color teal.
+
+
+## How To?
+I first asked online like anyone would on their search engine, "Where to find free images for use".
+This then lead to multiple options that showed up on Google how to find for business, presentation, etc..
+I then clicked search and was shown various websites and blogs regarding this decision.
+
+## Choice
+I then clicked on the blog that I saw with many websites linked and described on how to find images. This is linked here above and I then I chose the website unsplash.com. After this I started to browse around to get a feel for the website.
+
+## Typing In
+I clicked on the search engine provided in the website and I typed in teal. Teal is my favorite color at the moment and I have restated this in one of my blog posts. I was then shown a huge selection to choose from but the one that caught my attention in particular was this images/bia-w-a-PO8Woh4YBD8-unsplash.jpg .
+
+## I Then Click DOWNLOAD
+As this suggests the next step is downloading the image, I clicked on the medium size option for the image. Now I saved the photo in my downloads and I went ot my downloads and I copied and pasted the name of the image and went to my _quarto.yml next.
+
+## Proceeding
+I then went under my sidebar option and under the task of background I inserted the word logo. This was followed by a colon and then I pasted the name of the image I had downloaded onto there. Of course though I went further and decided to move it under my images folder on my laptop rather than just my downloads. As well it would be under my images folder made here in VSCode for the purpose of this website.
+
+## FINALLY
+So the final product in the end (by code) looks like this in my sidebar section.
+```js
+  sidebar:
+
+    - id: none
+      style: "docked"
+      background: light
+      logo: images/bia-w-a-PO8Woh4YBD8-unsplash.jpg
+      collapse-level: 2
+      contents: 
+        - section: "Articles"
+          href: articles/index.qmd
+          contents: 
+            - text: "Solution to Everything"
+              href:  articles/article_01.qmd
+            - text: "Solution to Flattening"
+              href:  articles/article_02.qmd 
+            - text: "Major Enhancement"
+              href: articles/article_03.qmd
+        - section: "Posts"
+          href: posts/index.qmd
+          contents: "posts/*/*.qmd"
+          sort:
+            - "date desc"
+
+```

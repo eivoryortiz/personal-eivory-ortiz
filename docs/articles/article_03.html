@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -82,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -90,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../articles/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../articles/index.html" rel="" target="">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
@@ -113,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Major Enhancement</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../articles/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../articles/article_03.html">Major Enhancement</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -123,6 +157,11 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/bia-w-a-PO8Woh4YBD8-unsplash.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -146,6 +185,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Solution to Flattening</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/article_03.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Major Enhancement</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -165,26 +210,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-16 Computer-Interest /index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computer Programming Topic of Interest</span></a>
+  <a href="../posts/2023-11-15 Amor-Poem/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Amor Poem</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-17 Modifying-Essay/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Modifying an Essay VIA Quarto</span></a>
+  <a href="../posts/2023-11-16 Teal-Color-Computer /index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Why Teal Is My Favorite Color</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../posts/2023-11-15 AmorLorem-Ispum/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Amor Lorem Ipsum</span></a>
+  <a href="../posts/2023-11-17 A-Lorem-Easy-Essay/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Lorem Easy Essay</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../posts/2023-11-14 Enhancement-Quarto/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How To Do Enhancements on Quarto!</span></a>
+ <span class="menu-text">How To Do Minor Enhancements on Quarto!</span></a>
   </div>
 </li>
       </ul>
@@ -195,7 +240,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#first-step" id="toc-first-step" class="nav-link active" data-scroll-target="#first-step">First Step</a></li>
+  <li><a href="#second-step" id="toc-second-step" class="nav-link" data-scroll-target="#second-step">Second Step</a></li>
+  <li><a href="#third-step" id="toc-third-step" class="nav-link" data-scroll-target="#third-step">Third Step</a></li>
+  <li><a href="#fourth-step" id="toc-fourth-step" class="nav-link" data-scroll-target="#fourth-step">Fourth Step</a></li>
+  <li><a href="#fifth-step" id="toc-fifth-step" class="nav-link" data-scroll-target="#fifth-step">Fifth Step</a></li>
+  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">WRAP-UP</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">LINKS</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eivoryortiz/personal-eivory-ortiz/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -218,9 +275,100 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <blockquote class="blockquote">
+The buttons are the major enhancement!
 </blockquote>
+<blockquote class="blockquote">
+The first website that I had didn’t have any buttons. I wanted to create buttons for the website instead of just leaving links or a here button link.
+</blockquote>
+<section id="first-step" class="level2">
+<h2 class="anchored" data-anchor-id="first-step">First Step</h2>
+<p>You need to go to a website if you are an amateur programmer who is wanting to make enhancments on your website to begin making any enhancements after you have made your search in the search engine.</p>
+</section>
+<section id="second-step" class="level2">
+<h2 class="anchored" data-anchor-id="second-step">Second Step</h2>
+<p>After you have your desired website you will then go to its blog/posts that it has for categories regarding your enhancment. Then you will scroll a bit until you find your desired enhancement.</p>
+</section>
+<section id="third-step" class="level2">
+<h2 class="anchored" data-anchor-id="third-step">Third Step</h2>
+<p>In this case I used a website known as Bootstrap which you can click <a href="https://getbootstrap.com">here</a> . At the top of the website the header shows different options. There are multiple to choose from but I chose from Docs. I clicked on Docs and under Docs there was the option for buttons.</p>
+</section>
+<section id="fourth-step" class="level2">
+<h2 class="anchored" data-anchor-id="fourth-step">Fourth Step</h2>
+<p>This is the code we needed to create the final button for the first one.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>{<span class="op">=</span>html}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>button type<span class="op">=</span><span class="st">"button"</span> <span class="kw">class</span><span class="op">=</span><span class="st">"btn btn-primary"</span><span class="op">&gt;</span> <span class="op">&lt;</span>a href<span class="op">=</span>https<span class="op">:</span><span class="co">//github.com/eivoryortiz&gt; EivoryOrtizGitHub &lt;/a&gt; &lt;/button&gt; </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Button One
+<ul>
+<li>First is having the two elements as buttons to indicate the beginning and ending of the code that makes the button.</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>button<span class="op">&gt;</span> <span class="op">&lt;/</span>button<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Second is to include the type= so this way the code is understood as a button.</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>type<span class="op">=</span><span class="st">"button"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Third is having the class of the button, this part is depending upon what class of button you want and there a ton of options to choose from in Bootstrap. For this first button I chose primary.</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span><span class="op">=</span><span class="st">"btn btn-primary"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Fourth, up until this point we have created the base class for a button, now because I wanted my button to have inside included my GitHub link this is the final step to acheive that. And this is applicable for inserting any recognized website.</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>a href<span class="op">=</span>https<span class="op">:</span><span class="co">//github.com/eivoryortiz&gt; EivoryOrtizGitHub &lt;/a&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Lastly, inside the above code is my name for the button which is outside the href= and its name is EivoryOrtizGitHub. Once I have completed all that it will look like the final code as demonstrated by my Fourth Step Code Segment.</li>
+</ul></li>
+<li>Button Two
+<ul>
+<li>The second button which is for the link to Quarto is provided below the code.</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>{<span class="op">=</span>html}</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>button type<span class="op">=</span><span class="st">"button"</span> <span class="kw">class</span><span class="op">=</span><span class="st">"btn btn-secondary"</span><span class="op">&gt;</span> <span class="op">&lt;</span>a href<span class="op">=</span>https<span class="op">:</span><span class="co">//quarto.org/docs/websites&gt; QUARTO &lt;/a&gt; &lt;/button&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
+</section>
+<section id="fifth-step" class="level2">
+<h2 class="anchored" data-anchor-id="fifth-step">Fifth Step</h2>
+<p>Keep in mind the following steps are repeated for the second button with the exception of changing for secondary where primary was and inserting the url for the Quarto website where the URL for my GitHub account was. Now lets discuss how we got the colors to be changed.</p>
+<blockquote class="blockquote">
+This is the code regarding the styles.css file that is needed for to make the change of the color of the primary and secondary buttons I coded into my website.
+</blockquote>
+<ul>
+<li><p>First off you want to make sure that the following code matches the language you are writing your website in and in this case its javascript. I had typed in my first buttons name which is .btn-primary and I inserted curly brackets to tell what specifically makes up the new style change for my button. Which in this case is the background color. I am not doing an overshadow, nor am I changing the text color, I simply want to modify the background of the default primary button color given in Quarto.</p></li>
+<li><p>Second, I can choose my color once I insert the colon in which I will be given a load of options from here until I find the color I want. In this case I wanted orange, so I typed in orange.</p></li>
+<li><p>Third and finally, I was taught by my professor Dr.White that anything I wanted Quarto to know regarding this website I am making through VSCode to make sure it runs I insert an exclamation point followed by the word important. And because this is the end of my code needed to modify my button I insert the semicolon and curly bracket and saved my changes and ran it in the terminal.</p></li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="at">btn</span><span class="op">-</span>primary {</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>background<span class="op">-</span><span class="dt">color</span><span class="op">:</span> orange <span class="op">!</span>important<span class="op">;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="at">btn</span><span class="op">-</span>secondary {</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>background<span class="op">-</span><span class="dt">color</span><span class="op">:</span> pink <span class="op">!</span>important<span class="op">;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="wrap-up" class="level2">
+<h2 class="anchored" data-anchor-id="wrap-up">WRAP-UP</h2>
+<p>The following was tutorial for my buttons regarding this assignment, I have given steps on how to code it and what it means in the end. I did do another enhancement which was change my navbar to a different color other than the one provided by default for Quarto. So I will explain that as it is a modification that is not a default.</p>
+<ul>
+<li>Explaining
+<ul>
+<li><p>The same is applicable for the changing of the header or in this case the navbar. <a href="https://getbootstrap.com/docs/5.3/components/navbar/" class="uri">https://getbootstrap.com/docs/5.3/components/navbar/</a> This link is for where specifically I found how to change navbar settings.</p></li>
+<li><p>I went into the style.css file and I typed in navbar-dark followed by a comma and then navbar-light then followed by another comma till finally .navbar. This is because my default navbar on Quarto is following a background of light that I typed into my Quarto Yml but is also what will help me see the text when the final navbar is complete.</p></li>
+<li><p>Then I opened up a curly bracket in which I insert what I specifically am changing in the navbar from its default and this is its background color. So I type in background-color and its followed by a colon to call upon the colors and I wanted something that went with the color scheme I had so I chose lightsalmon.</p></li>
+<li><p>I then closed it with the semi-colon and curly bracket and saved my new change to the navbar and then ran in the terminal my website to preview the changes I had made here on VSCode. It was to my liking and now you can do it too!</p></li>
+</ul></li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="at">navbar</span><span class="op">-</span>dark<span class="op">,</span> navbar<span class="op">-</span>light<span class="op">,</span> <span class="op">.</span><span class="at">navbar</span>{</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    background<span class="op">-</span><span class="dt">color</span><span class="op">:</span> lightsalmon<span class="op">;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">LINKS</h2>
+<p>Link for buttons on Bootstrap <a href="https://getbootstrap.com/docs/5.3/components/buttons/" class="uri">https://getbootstrap.com/docs/5.3/components/buttons/</a> . Link for the style.css file for buttons and navbar <a href="https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/styles.css" class="uri">https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/styles.css</a> . Link for the code of the buttons <a href="https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/index.qmd" class="uri">https://github.com/eivoryortiz/personal-eivory-ortiz/blob/main/index.qmd</a></p>
+<p>## Conclusion</p>
+<p>Now you can change your navbar and insert buttons on your own website using Quarto and VSCode!</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -460,4 +608,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eivoryortiz/personal-eivory-ortiz/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+</body></html>

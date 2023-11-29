@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2023-11-14">
 <meta name="description" content="My own first-hand experience with Qarto as a new coder.">
 
-<title>Eivory Ortiz’s Website - How To Do Enhancements on Quarto!</title>
+<title>Eivory Ortiz’s Website - How To Do Minor Enhancements on Quarto!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -85,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
+    <a class="nav-link active" href="../../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -93,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../articles/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../articles/index.html" rel="" target="">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
@@ -116,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Posts</a></li><li class="breadcrumb-item"><a href="../../posts/2023-11-14 Enhancement-Quarto/index.html">How To Do Enhancements on Quarto!</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/index.html">Posts</a></li><li class="breadcrumb-item"><a href="../../posts/2023-11-14 Enhancement-Quarto/index.html">How To Do Minor Enhancements on Quarto!</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -126,6 +160,11 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/bia-w-a-PO8Woh4YBD8-unsplash.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -149,6 +188,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Solution to Flattening</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../articles/article_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Major Enhancement</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -168,26 +213,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../posts/2023-11-16 Computer-Interest /index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computer Programming Topic of Interest</span></a>
+  <a href="../../posts/2023-11-15 Amor-Poem/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Amor Poem</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../posts/2023-11-17 Modifying-Essay/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Modifying an Essay VIA Quarto</span></a>
+  <a href="../../posts/2023-11-16 Teal-Color-Computer /index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Why Teal Is My Favorite Color</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../posts/2023-11-15 AmorLorem-Ispum/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Amor Lorem Ipsum</span></a>
+  <a href="../../posts/2023-11-17 A-Lorem-Easy-Essay/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Lorem Easy Essay</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../posts/2023-11-14 Enhancement-Quarto/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">How To Do Enhancements on Quarto!</span></a>
+ <span class="menu-text">How To Do Minor Enhancements on Quarto!</span></a>
   </div>
 </li>
       </ul>
@@ -198,17 +243,30 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#how-to" id="toc-how-to" class="nav-link" data-scroll-target="#how-to">How To?</a></li>
+  <li><a href="#choice" id="toc-choice" class="nav-link" data-scroll-target="#choice">Choice</a></li>
+  <li><a href="#typing-in" id="toc-typing-in" class="nav-link" data-scroll-target="#typing-in">Typing In</a></li>
+  <li><a href="#i-then-click-download" id="toc-i-then-click-download" class="nav-link" data-scroll-target="#i-then-click-download">I Then Click DOWNLOAD</a></li>
+  <li><a href="#proceeding" id="toc-proceeding" class="nav-link" data-scroll-target="#proceeding">Proceeding</a></li>
+  <li><a href="#finally" id="toc-finally" class="nav-link" data-scroll-target="#finally">FINALLY</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eivoryortiz/personal-eivory-ortiz/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How To Do Enhancements on Quarto!</h1>
+<h1 class="title">How To Do Minor Enhancements on Quarto!</h1>
   <div class="quarto-categories">
     <div class="quarto-category">tutorial</div>
     <div class="quarto-category">web design</div>
+    <div class="quarto-category">substantive</div>
     <div class="quarto-category">computer science</div>
   </div>
   </div>
@@ -242,9 +300,70 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>This website I am building is the first website I have ever created and with that comes so many new opportunities of exploration. Granted I am also confined to the rubric of my computer science class for this assignment, but this has been such a fun and rewarding experience that makes me grateful for taking a chance on the field of computer science for my minor. So a lot of what I have created, modified, and used for this version of the website you can do as well!</p>
+<ul>
+<li>Images
+<ul>
+<li>The image I used is from a website known as Unsplash which you can click <a href="https://unsplash.com">here</a></li>
+<li>Other images can be found on the web that are free to use I would recommend starting out with websites like this one linked <a href="https://morethandigital.info/en/top-websites-for-free-and-royalty-free-photos-update/">here</a></li>
+</ul></li>
+<li>Git
+<ul>
+<li>This is my GitHub linked again for the purpose of locating where the enhancement resides in <a href="https://github.com/eivoryortiz/personal-eivory-ortiz/tree/main/images">here</a></li>
+</ul></li>
+</ul>
+<p>I love visual art representations, but I mean <em>love</em>. I decided to insert an image on the sidebar of my website. I wanted to show something but I didn’t know what exactly to choose for a representation of me, so I chose an abstract image of my favorite color teal.</p>
+</section>
+<section id="how-to" class="level2">
+<h2 class="anchored" data-anchor-id="how-to">How To?</h2>
+<p>I first asked online like anyone would on their search engine, “Where to find free images for use”. This then lead to multiple options that showed up on Google how to find for business, presentation, etc.. I then clicked search and was shown various websites and blogs regarding this decision.</p>
+</section>
+<section id="choice" class="level2">
+<h2 class="anchored" data-anchor-id="choice">Choice</h2>
+<p>I then clicked on the blog that I saw with many websites linked and described on how to find images. This is linked here above and I then I chose the website unsplash.com. After this I started to browse around to get a feel for the website.</p>
+</section>
+<section id="typing-in" class="level2">
+<h2 class="anchored" data-anchor-id="typing-in">Typing In</h2>
+<p>I clicked on the search engine provided in the website and I typed in teal. Teal is my favorite color at the moment and I have restated this in one of my blog posts. I was then shown a huge selection to choose from but the one that caught my attention in particular was this images/bia-w-a-PO8Woh4YBD8-unsplash.jpg .</p>
+</section>
+<section id="i-then-click-download" class="level2">
+<h2 class="anchored" data-anchor-id="i-then-click-download">I Then Click DOWNLOAD</h2>
+<p>As this suggests the next step is downloading the image, I clicked on the medium size option for the image. Now I saved the photo in my downloads and I went ot my downloads and I copied and pasted the name of the image and went to my _quarto.yml next.</p>
+</section>
+<section id="proceeding" class="level2">
+<h2 class="anchored" data-anchor-id="proceeding">Proceeding</h2>
+<p>I then went under my sidebar option and under the task of background I inserted the word logo. This was followed by a colon and then I pasted the name of the image I had downloaded onto there. Of course though I went further and decided to move it under my images folder on my laptop rather than just my downloads. As well it would be under my images folder made here in VSCode for the purpose of this website.</p>
+</section>
+<section id="finally" class="level2">
+<h2 class="anchored" data-anchor-id="finally">FINALLY</h2>
+<p>So the final product in the end (by code) looks like this in my sidebar section.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>  sidebar<span class="op">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">-</span> id<span class="op">:</span> none</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>      style<span class="op">:</span> <span class="st">"docked"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>      background<span class="op">:</span> light</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>      logo<span class="op">:</span> images<span class="op">/</span>bia<span class="op">-</span>w<span class="op">-</span>a<span class="op">-</span>PO8Woh4YBD8<span class="op">-</span>unsplash<span class="op">.</span><span class="at">jpg</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      collapse<span class="op">-</span>level<span class="op">:</span> <span class="dv">2</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      contents<span class="op">:</span> </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">-</span> section<span class="op">:</span> <span class="st">"Articles"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>          href<span class="op">:</span> articles<span class="op">/</span>index<span class="op">.</span><span class="at">qmd</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>          contents<span class="op">:</span> </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>            <span class="op">-</span> text<span class="op">:</span> <span class="st">"Solution to Everything"</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>              href<span class="op">:</span>  articles<span class="op">/</span>article_01<span class="op">.</span><span class="at">qmd</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>            <span class="op">-</span> text<span class="op">:</span> <span class="st">"Solution to Flattening"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>              href<span class="op">:</span>  articles<span class="op">/</span>article_02<span class="op">.</span><span class="at">qmd</span> </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>            <span class="op">-</span> text<span class="op">:</span> <span class="st">"Major Enhancement"</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>              href<span class="op">:</span> articles<span class="op">/</span>article_03<span class="op">.</span><span class="at">qmd</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="op">-</span> section<span class="op">:</span> <span class="st">"Posts"</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>          href<span class="op">:</span> posts<span class="op">/</span>index<span class="op">.</span><span class="at">qmd</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>          contents<span class="op">:</span> <span class="st">"posts/*/*.qmd"</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>          sort<span class="op">:</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>            <span class="op">-</span> <span class="st">"date desc"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -484,4 +603,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eivoryortiz/personal-eivory-ortiz/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+</body></html>
